@@ -8,6 +8,7 @@
 .build/
 .classpath
 .cxx/
+.env
 .externalNativeBuild/
 .gradle/
 .idea/
