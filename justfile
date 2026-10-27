@@ -17,7 +17,7 @@ _default:
 # Create the Python 3.12 virtualenv
 [group('configuration')]
 venv:
-    uv venv --python {{ python }} {{ venv }}
+    @test -x {{ bin }}/python || uv venv --python {{ python }} {{ venv }}
 
 # Create the venv and install Harness² with render extras (editable)
 [group('configuration')]
