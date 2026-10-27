@@ -26,6 +26,7 @@ bin/
 buck-out/
 build/
 cmake-build-debug/
+dependencies/
 gradlew.bat
 heapdump.*.phd
 javacore.*.txt
