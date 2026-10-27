@@ -1,4 +1,5 @@
 *.dll
+*.egg-info/
 *.hprof
 *.iml
 *.xccheckout
