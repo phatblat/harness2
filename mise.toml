@@ -1,0 +1,3 @@
+[tools]
+pandoc = "3.12.1"
+poppler = "26.09.0"
